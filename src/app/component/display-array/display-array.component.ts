@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class DisplayArrayComponent  {
   users: string[] = ['Mimu', 'Ahlem', 'Hamid'];
+  ifDisplayed: boolean = true;
+  
+  showHide(): void {
+    this.ifDisplayed = !this.ifDisplayed;
+  }
 }

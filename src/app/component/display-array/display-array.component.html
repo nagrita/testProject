@@ -1,4 +1,10 @@
-<ul>
+<p>if you want to show the list of the users click here</p>
+<button (click)="showHide()">
+  show/hide users
+</button>
+
+
+<ul *ngIf="ifDisplayed">
   <li *ngFor="let user of users">
     {{user}}
   </li>
