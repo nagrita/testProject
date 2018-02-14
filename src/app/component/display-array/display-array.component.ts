@@ -1,15 +1,10 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-display-array',
   templateUrl: './display-array.component.html',
   styleUrls: ['./display-array.component.css']
 })
-export class DisplayArrayComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit() {
-  }
-
+export class DisplayArrayComponent  {
+  users: string[] = ['Mimu', 'Ahlem', 'Hamid'];
 }
