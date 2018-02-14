@@ -3,11 +3,13 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { DisplayArrayComponent } from './component/display-array/display-array.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    DisplayArrayComponent
   ],
   imports: [
     BrowserModule
